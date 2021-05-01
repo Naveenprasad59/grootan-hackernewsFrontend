@@ -1,0 +1,61 @@
+.news {
+    background-image: url("https://media.istockphoto.com/photos/pastel-coral-peachy-grunge-concrete-background-ombre-light-orange-picture-id1154434688?k=6&m=1154434688&s=170667a&w=0&h=9RFwkX8r1NTXPFE2Yev_lRDC9_Wlz_0zojzXqEOWUZ8=");
+}
+
+.newsdata {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.subnewsdata {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.commentbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.comments2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.indicomments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.indicomments>p {
+    margin: 10px;
+}
+
+.commentsub {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    font-family: 'Dancing Script',cursive;
+    
+}
+
+.navbar {
+    height: 70px;
+    background-color: #FF6600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.banner-image {
+    width: 150px;
+    margin: 0px 20px 0px 20px;
+    object-fit: contain;
+}
+
+.rightchildren {
+   display: flex;
+}
+
+.navrightelement {
+    margin-left: 5px;
+    margin-right: 20px;
+}

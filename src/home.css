@@ -1,0 +1,24 @@
+.firstStory {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.nextStory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 100%;
+    border-left: 6px solid lightgray;
+}
+
+.hline {
+    width: 200%;
+    margin: 5px;
+    border-top: 6px solid lightgray;
+}
